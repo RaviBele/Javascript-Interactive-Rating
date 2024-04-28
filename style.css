@@ -56,9 +56,9 @@ main {
 
 .onclick-style {
     padding: 1rem 1.4rem;
-    background-color: #FC7614;
+    background-color: #FC7614 !important;
     border-radius: 50%;
-    color: #FFFF;
+    color: #FFFF !important;
 }
 
 .rating-container button {
