@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 412px;
+    margin-inline: 1rem;
+    background: linear-gradient(#232A34, #181E27);
+    padding: 2rem;
+    font-family: "Overpass", sans-serif;
+    border-radius: 30px;
+}
+
+.rating-container img {
+    padding: 1rem;
+    background-color: #262E38;
+    border-radius: 50%;
+}
+
+.rating-container h2 {
+    margin-block: 2rem 1rem;
+    color: white;
+}
+
+.rating-container p {
+    margin-bottom: 1.5rem;
+    color: #969FAD;
+    line-height: 1.6;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.default-style {
+    padding: 1rem 1.4rem;
+    background-color: #262E38;
+    border-radius: 50%;
+    color: #7C8798;
+}
+
+.onclick-style {
+    padding: 1rem 1.4rem;
+    background-color: #FC7614;
+    border-radius: 50%;
+    color: #FFFF;
+}
+
+.rating-container button {
+    width: 100%;
+    padding-block: 1rem;
+    border-radius: 50px;
+    background-color: #FC7614;
+    text-transform: uppercase;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    border: none;
+}
+
+.hover-enabled:hover {
+    background-color: #7C8798;
+    color: white;
+    cursor: pointer;
+}
+
+.rating-container button:hover {
+    color: #FC7614;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.thanks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks-container img {
+    margin-block: 2rem;
+}
+
+.thanks-container h2 {
+    color: white;
+    margin-block: 2rem 1rem;
+}
+
+.thanks-container p {
+    color: #969FAD;
+    text-align: center;
+}
+
+.result {
+    background-color: #262E38;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+}
+
+.result p {
+    color: #FC7614;
+    padding-inline: 0.5rem;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        padding: 2rem 1rem;
+    }
+}
