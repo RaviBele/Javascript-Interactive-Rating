@@ -28,6 +28,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](image.png)
+![Thanks](image-2.png)
 ![Mobile](image-1.png)
 
 ### Links
